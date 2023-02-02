@@ -93,6 +93,7 @@ ul {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
+  transition: color var(--animation);
 }
 .logo-nav:hover,
 .logo-nav:focus {
@@ -112,6 +113,7 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  transition: color var(--animation);
 }
 .site-nav .current {
   position: relative;
@@ -137,6 +139,7 @@ ul {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  transition: color var(--animation);
 }
 .contact-link:hover,
 .contact-link:focus {
@@ -190,6 +193,7 @@ ul {
   background: var(--accent-logo-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  transition: background-color var(--animation);
 }
 /* Button Text */
 .button-text {
@@ -310,6 +314,7 @@ h2 {
   height: 40px;
   background-color: var(--accent-logo-color);
   border-radius: 50%;
+  transition: background-color var(--animation);
 }
 
 a {
@@ -357,6 +362,7 @@ a {
   color: var(--customer-border);
   border: 1px solid var(--customer-border);
   border-radius: 4px;
+  transition: background-color var(--animation);
 }
 .customer-partner {
   width: 168px;
@@ -434,6 +440,7 @@ a {
 
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
+  transition: background-color var(--animation);
 }
 .media {
   color: var(--button-text-active);
