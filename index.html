@@ -60,7 +60,7 @@
       <section class="hero-section section overlay">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="button" type="button">
+          <button class="button" type="button" data-modal-open>
             <span class="button-text"> Order Service </span>
           </button>
         </div>
@@ -466,8 +466,9 @@
                 <svg class="media" width="24" height="24">
                   <use
                     href="./images/icons.svg/symbol-defsnew.svg#icon-twitter"
-                  ></use></svg
-              ></a>
+                  ></use>
+                </svg>
+              </a>
             </li>
             <li>
               <a class="icon-links" href="">
@@ -489,5 +490,15 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop" data-modal>
+      <div class="modal">
+        <button class="modal-btn" type="button" data-modal-close>
+          <svg width="8" height="8">
+            <use href="./images/icons.svg/symbol-defsnew.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>

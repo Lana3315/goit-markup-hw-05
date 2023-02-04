@@ -324,3 +324,26 @@ img {
 .icon-links:focus {
   background: var(--hover-media);
 }
+.overley {
+  position: relative;
+  overflow: hidden;
+}
+.overley-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  transform: translate(0, 100%);
+  padding: 40px 32px 0;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  background-color: #404bbf;
+  transition: transform var(--animation);
+}
+.flex-list:hover .overley-text,
+.flex-list:focus .overley-text {
+  transform: translate(0, 0);
+}
