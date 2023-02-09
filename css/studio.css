@@ -496,3 +496,8 @@ a {
   pointer-events: none;
   transition: opacity var(--animation);
 }
+
+label {
+  display: flex;
+  flex-direction: column;
+}
